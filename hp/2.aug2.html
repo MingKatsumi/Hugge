@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        /* *{ 
+            outline:1px solid red;
+        }*/
+        .wrapper{
+            width:80%;
+            margin-left:auto;
+            margin-right:auto;
+            
+        }
+        .header{
+            margin-bottom:5px; 
+        }
+        
+        h1{
+            color: #3b5998;
+            text-align: center;
+            
+        }
+        .subtitle{
+            text-align: center;
+            
+        }
+        .red{
+            color: crimson;
+        }
+        
+        
+        .menu{
+            background-color:mediumaquamarine;
+            margin-bottom:30px; 
+            overflow: hidden;
+            padding-top:10px;
+            padding-bottom:10px;
+        }
+        .menu-list{
+            padding: 0;
+            list-style: none;
+            width: 100%;
+            margin-top:0;
+            margin-bottom:0;
+        }
+        .menu-list-item{
+            float:left;
+            width:19%;
+            padding: 0;
+            margin:0;
+            text-align:center;
+        }
+        .menu-list-item:hover{
+            background: rgb(184, 126, 87);
+        }
+        .link{
+            text-decoration:none;
+            color:mintcream;
+        }
+        .gr{
+            color: dimgrey;
+        }
+        .main{
+            /* background-color: rgb(198, 215, 231); */
+            width:65%;
+            float: left;
+            
+        }
+        .sidebar{
+            background: #fa9373;
+            width:30%;
+            float:right;
+            padding: 10px;
+            
+            
+        }
+        .Profile{
+            text-align: center;
+            
+        }
+        .photo{
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius:1000px;
+        }
+        .intro-text{
+            font-size:14px;
+            color:#6a1301;
+            
+        }
+        .intro-text .link{
+            color: steelblue;
+        }
+        .important{
+            font-weight: bold;
+        }
+        .main-sideber{
+            overflow: hidden;
+            margin-bottom:5px; 
+        }
+        
+        /* main,sidebarとfooterの間にスペースを開けたい */
+        .footer{
+            background-color:midnightblue;
+            clear: both;
+        }
+        
+        
+        
+        .card{
+            display: block;
+            max-width: 200px;
+            min-width: 120px;
+            
+            width: 100%;
+            box-shadow:  2px 2px 6px rgba(0,0,0,0.3);
+            float:left;
+        }
+        .up{
+            padding: 0;
+        }
+        .card-photo{
+            display: block;
+            width: 100%;
+        }
+        .down{
+            padding: 10px;
+            
+        }
+        .card-title{
+            font-size: 18px;
+            font-weight: bold;
+            
+        }
+        .card-text{
+            font-size: 14px;
+            line-height: 22px;
+        }
+        
+        .card-button{
+            display: block;
+            background-color:#3b5998;
+            border: 1px solid #3b5998;
+            border-radius: 4px;
+            text-align: center;
+            width: 40%;
+            color:white;
+            text-decoration: none;
+            padding-top: 3px;
+            padding-bottom: 3px;
+            margin: 0 auto;
+        }
+            
+        
+        
+        
+    </style>
+    
+    
+    
+    
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <h1>Hyggeらいふ</h1>
+            <div class="subtitle">
+                20代で不安障害と向き合いながら海外生活をしている話<span class="red">@</span>Ming Blog
+            </div>
+        </div>
+        
+        <nav class="menu">
+            <!-- menu -->
+            <ul class="menu-list">
+                <li class="menu-list-item">
+                    <a href="http://yahoo.com" class="link">🌍人生</a>
+                </li>
+                <li class="menu-list-item">
+                    <a href="http://yahoo.com" class="link">🏖海外生活</a>
+                </li>
+                <li class="menu-list-item">
+                    <a href="http://yahoo.com" class="link">💊不安障害</a>
+                </li>
+                <li class="menu-list-item">
+                    <a href="http://yahoo.com" class="link"><span class="gr">＜/＞</span>コーディング</a>
+                </li>
+                <li class="menu-list-item">
+                    <a href="http://yahoo.com" class="link">📲コンタクト</a>
+                </li>
+            </ul>
+        </nav>
+        
+        <div class="main-sideber">
+            <div class="main">
+                
+                
+                <!-- START insert card html -->
+                
+                <div class="card">
+                    <div class="up">
+                        <img src="https://source.unsplash.com/960x540?soccer" alt="" class="card-photo">
+                    </div>
+                    <div class="down">
+                        <h2 class="card-title">Huggeとは？</h2>
+                        <p class="card-text">Hugge ヒュッゲ”とはデンマーク語で『人と人との触れ合いから生まれる...</p>
+                        <div class="card-button-box">
+                            <a href="http://yahoo.co.jp" class="card-button">More view</a>
+                        </div>
+                    </div>
+                    
+                    
+                    
+                    
+                    
+                    
+                </div>
+                <div class="card">
+                    <div class="up">
+                        <img src="https://source.unsplash.com/960x540?soccer" alt="" class="card-photo">
+                    </div>
+                    <div class="down">
+                        <h2 class="card-title">サッカーについて</h2>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <div class="card-button-box">
+                            <a href="http://yahoo.co.jp" class="card-button">More view</a>
+                        </div>
+                    </div>
+                    
+                </div>
+                <!-- END insert card html -->
+                
+                
+                
+                
+                
+                
+                
+            </div>
+            
+            <div class="sidebar">
+                <div class="Profile">Profile</div>
+                <div class="photo">
+                    
+                </div>
+                <p class="intro-text">
+                    
+                    博多育ちの25歳。海外生活6年目。<br>
+                    高校を卒業後、北京の大学へ入学。<br>
+                    その後フリーター、日本大手企業、海外転職を経て<span class="important">現在海外で就職中。</span>
+                    しかし2018年に<span class="important">不安障害を抱える。</span><br>
+                    現在、病気と向き合いながら日々を葛藤中。<br>
+                    <a href="http://yahoo.co.jp" class="link">＊詳細プロフィールプロフィール＊</a>
+                    <br>
+                    <br>
+                    HTML,CSS初心者の私が一からWebページ作成しました！<br>
+                    <a href="http://yahoo.co.jp" class="link">＊詳細はこちら＊</a>
+                </p>
+                
+            </div>
+        </div>
+        
+        <div class="footer">
+            footer
+        </div>
+        
+    </div>
+    
+</body>
+</html>

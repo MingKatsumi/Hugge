@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    /* *{ 
+        outline:1px solid red;
+    }*/
+    .wrapper{
+        width:80%;
+        margin-left:auto;
+        margin-right:auto;
+
+    }
+    .header{
+        background-color:moccasin;
+        margin-bottom:5px; 
+    }
+    /* h1の文字をセンターへ持っていきたい */
+    h1{
+        text-align: center;
+         
+        
+    }
+    /* サブタイトルをセンターへ持っていきたい */
+    .subtitle{
+        text-align: center;
+    }
+
+
+    .menu{
+        background-color:mediumaquamarine;
+        margin-bottom:30px; 
+        overflow: hidden;
+        padding-top:10px;
+        padding-bottom:10px;
+    }
+    .menu-list{
+        padding: 0;
+        list-style: none;
+        width: 100%;
+        margin-top:0;
+        margin-bottom:0;
+    }
+    .menu-list-item{
+        float:left;
+        width:19%;
+        padding: 0;
+        margin:0;
+        text-align:center;
+    }
+    .menu-list-item:hover{
+        background: rgb(184, 126, 87);
+    }
+    .link{
+        text-decoration:none;
+        color:mintcream;
+    }
+    .main{
+        background-color: rgb(198, 215, 231);
+        width:65%;
+        float: left;
+        
+    }
+    .sidebar{
+        background: #fa9373;
+        width:30%;
+        float:right;
+        padding: 10px;
+
+        
+    }
+    .Profile{
+        text-align: center;
+
+    }
+    .photo{
+        height: 100px;
+        width: 100px;
+        background-color: white;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius:1000px; 
+    }
+    .intro-text{
+        font-size:14px;
+        color:#6a1301;
+
+    }
+    .intro-text .link{
+        color: steelblue;
+    }
+    .important{
+        font-weight: bold;
+    }
+    .main-sideber{
+        overflow: hidden;
+        margin-bottom:5px; 
+    }
+
+    /* main,sidebarとfooterの間にスペースを開けたい */
+    .footer{
+        background-color:midnightblue;
+        clear: both;
+    }
+
+
+    
+    
+    
+    
+    
+    
+    
+    </style>
+
+
+
+
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <h1>あおぞらぶろぐ</h1>
+            <div class="subtitle">~不安障害と向き合いながら海外生活をしている話~</div>
+        </div>
+
+        <nav class="menu">
+            <!-- menu -->
+            <ul class="menu-list">
+                <li class="menu-list-item">
+                    <a href="http://yahoo.com" class="link">人生</a>
+                </li>
+                <li class="menu-list-item">
+                    <a href="http://yahoo.com" class="link">海外生活</a>
+                </li>
+                <li class="menu-list-item">
+                    <a href="http://yahoo.com" class="link">不安障害</a>
+                </li>
+                <li class="menu-list-item">
+                    <a href="http://yahoo.com" class="link">コーディング</a>
+                </li>
+                <li class="menu-list-item">
+                    <a href="http://yahoo.com" class="link">コンタクト</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="main-sideber">
+            <div class="main">
+            main
+            </div>
+
+            <div class="sidebar">
+                <div class="Profile">Profile</div>
+                <div class="photo">
+
+                </div>
+                <p class="intro-text">
+
+                    博多育ちの25歳。<br>
+                    高校を卒業後、北京の大学へ入学。<br>
+                    その後フリーター、日本大手企業、海外転職を経て<span class="important">現在海外で就職中。</span>
+                    しかし2018年に<span class="important">不安障害を抱える。</span><br>
+                    現在、病気と向き合いながら日々を葛藤中。<br>
+                    <a href="http://yahoo.co.jp" class="link">＊詳細はこちら＊</a>
+                    <br>
+                    <br>
+                    HTML,CSS初心者の私が一からWebページ作成しました！<br>
+                    <a href="http://yahoo.co.jp" class="link">＊詳細はこちら＊</a>
+                </p>
+
+            </div>
+        </div>
+
+        <div class="footer">
+            footer
+        </div>
+
+    </div>
+    
+</body>
+</html>
